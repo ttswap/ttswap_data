@@ -2,7 +2,7 @@ import express from 'express'
 import shortLinkRouter from './shortLinkRouter.js'
 
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 8888
 
 // 添加 JSON 解析中间件
 app.use(express.json())
