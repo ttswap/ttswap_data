@@ -1,0 +1,13 @@
+{
+    "name": "ttswap-doc-node",
+    "type": "module",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "node src/server/index.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {}
+}
