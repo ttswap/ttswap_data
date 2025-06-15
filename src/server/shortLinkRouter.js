@@ -28,9 +28,9 @@ const writeShortLinks = (data) => {
 
 // Generate short link
 router.post('/generate-short-link', (req, res) => {
-  // console.log('POST /generate-short-link', req.body)
+  console.log('POST /generate-short-link', req.body)
   const { username, originalUrl } = req.body
-  // console.log('ddd', req.get('origin'))
+  console.log('ddd', req.get('origin'),username, originalUrl)
   if (!username || !originalUrl) {
     return res.status(400).json({ success: false, error: 'Missing required fields' })
   }
